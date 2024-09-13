@@ -1,4 +1,4 @@
-.container{
+.top-container{
      border: 1px solid black;
      height: 300px;
      display: flex;
@@ -20,4 +20,28 @@ p{
     border-radius: 50%;
     margin: 0px 30px;
     padding: 10px 30px;
+}
+.btn{
+   text-decoration: none;
+    color: white;
+        width: 170px;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 7px;
+        margin: 10px;
+}
+.main-container{
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 20px;
+}
+.pasta-img{
+    height:350px;
+    width: 350px;
+ 
 }
